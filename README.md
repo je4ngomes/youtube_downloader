@@ -12,7 +12,7 @@ Youtube_Download is a script allow you download video, playlist and an entire ch
 **optional arguments:**
 
   -q : This one is optional to add this parameter you use "-q followed by the quality"
-   or you can just let it in blank by defaul the program will set medium quality.
+   or you can just let it in blank by default the program will set medium quality.
     -low
     -medium
     -high 
