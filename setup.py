@@ -33,7 +33,12 @@ def get_links():
     filename_64bit = regex.search(r'phantomjs[-0-9.]+-linux-x86_64', html)
     filename_32bit = regex.search(r'phantomjs[-0-9.]+-linux-i686', html)
 
-    return {'32bit': _32bit.group(), '64bit': _64bit.group(), 'filename_32bit': filename_32bit.group(), 'filename_64bit': filename_64bit.group()}
+    return {
+        '32bit': _32bit.group(), 
+        '64bit': _64bit.group(), 
+        'filename_32bit': filename_32bit.group(), 
+        'filename_64bit': filename_64bit.group()
+    }
 
 
 def main(arch):
